@@ -1,0 +1,38 @@
+{
+  "name": "Better Gitlab",
+  "description": "Make custom changes to gitlab UI!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "jevan.meader@wheniwork.com"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://gitlab.wheniwork.com/*"],
+      "css": ["custom-styles.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://github.com/*"],
+      "css": ["custom-styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/gitlab-icon-16.png",
+      "32": "/images/gitlab-icon-32.png",
+      "48": "/images/gitlab-icon-48.png",
+      "128": "/images/gitlab-icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/gitlab-icon-16.png",
+    "32": "/images/gitlab-icon-32.png",
+    "48": "/images/gitlab-icon-48.png",
+    "128": "/images/gitlab-icon-128.png"
+  }
+}

@@ -1,0 +1,263 @@
+tbody tr[role="row"] {
+    height: 104px;
+}
+/* Marketing Site
+*/
+body[data-project="marketing-site"] tbody tr[role="row"] [data-label="Pipeline"] {
+    position: relative;
+}
+
+body[data-project="marketing-site"] tbody tr[role="row"] [data-label="Pipeline"] [href*="staging"]::after {
+    content: "";
+    background: #a1c7e0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+body[data-project="marketing-site"]
+    tbody
+    tr[role="row"]
+    [data-label="Pipeline"]
+    [href^="/marketing/marketing-site/-/commits/20"]::after {
+    content: "";
+    background: #ff9933;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+/* Marketing Infra
+*/
+body[data-project="marketing-infra"] tbody tr[role="row"] [data-label="Pipeline"] {
+    position: relative;
+}
+
+body[data-project="marketing-infra"] tbody tr[role="row"] [data-label="Pipeline"] [href*="staging"]::after {
+    content: "";
+    background: #a1c7e0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+body[data-project="marketing-infra"]
+    tbody
+    tr[role="row"]
+    [data-label="Pipeline"]
+    [href^="/marketing/marketing-infra/-/commits/20"]::after {
+    content: "";
+    background: #ff9933;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+/* Marketing Backend
+*/
+body[data-project="marketing-backend"] tbody tr[role="row"] [data-label="Pipeline"] {
+    position: relative;
+}
+
+body[data-project="marketing-backend"] tbody tr[role="row"] [data-label="Pipeline"] [href*="staging"]::after {
+    content: "";
+    background: #a1c7e0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+body[data-project="marketing-backend"]
+    tbody
+    tr[role="row"]
+    [data-label="Pipeline"]
+    [href^="/marketing/marketing-backend/-/commits/20"]::after {
+    content: "";
+    background: #ff9933;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+/* Login JS
+*/
+body[data-project="login-react"] tbody tr[role="row"] [data-label="Pipeline"] {
+    position: relative;
+}
+
+body[data-project="login-react"] tbody tr[role="row"] [data-label="Pipeline"] [href="/GITLAB_USERNAME"] {
+    position: static;
+}
+
+body[data-project="login-react"] tbody tr[role="row"] [data-label="Pipeline"] [href="/GITLAB_USERNAME"]::after {
+    content: "";
+    background: #a1c7e0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+body[data-project="login-react"]
+    tbody
+    tr[role="row"]
+    [data-label="Pipeline"]
+    [href^="/apps/login-react/-/commits/20"]::after {
+    content: "";
+    background: #ff9933;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+/* Wheniwork JS
+*/
+body[data-project="wheniwork-js"] tbody tr[role="row"] [data-label="Pipeline"] {
+    position: relative;
+}
+
+body[data-project="wheniwork-js"] tbody tr[role="row"] [data-label="Pipeline"] [href="/GITLAB_USERNAME"] {
+    position: static;
+}
+
+body[data-project="wheniwork-js"] tbody tr[role="row"] [data-label="Pipeline"] [href="/GITLAB_USERNAME"]::after {
+    content: "";
+    background: #a1c7e0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+body[data-project="wheniwork-js"]
+    tbody
+    tr[role="row"]
+    [data-label="Pipeline"]
+    [href^="/apps/wheniwork-js/-/commits/20"]::after {
+    content: "";
+    background: #ff9933;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100;
+    height: 100%;
+    max-height: 88px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+/* MR
+*/
+body[data-page="projects:merge_requests:index"] .merge-request:has([data-username="GITLAB_USERNAME"]) {
+    background: darkturquoise;
+    border-radius: 8px;
+
+    .merge-request-title-text a {
+        color: #0d3a70;
+    }
+
+    .issuable-info a {
+        color: black;
+    }
+
+    .issuable-info span {
+        color: black;
+    }
+
+    .issuable-updated-at span {
+        color: black;
+    }
+
+    .issuable-authored {
+        color: black !important;
+    }
+}
+
+/* Target the PR row by author username in the "opened by" link */
+.Box-row--drag-hide:has(.opened-by a[data-hovercard-url*="GITHUB_USERNAME"]) {
+    background: darkturquoise !important;
+}
+
+/* Style PR title links to match GitLab */
+.Box-row--drag-hide:has(.opened-by a[data-hovercard-url*="GITHUB_USERNAME"]) a.Link--primary {
+    color: #0d3a70 !important;
+}
+
+/* Style metadata text and links */
+.Box-row--drag-hide:has(.opened-by a[data-hovercard-url*="GITHUB_USERNAME"]) .color-fg-muted,
+.Box-row--drag-hide:has(.opened-by a[data-hovercard-url*="GITHUB_USERNAME"]) .Link--muted {
+    color: black !important;
+}
