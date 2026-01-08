@@ -1,6 +1,6 @@
 {
-  "name": "Better Gitlab",
-  "description": "Make custom changes to gitlab UI!",
+  "name": "Better Pull Request",
+  "description": "Make custom changes to git(lab|hub) UI!",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting", "tabs"],
